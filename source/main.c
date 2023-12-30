@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	if (!hasPriiloader()) {
-		printf("\x1b[30;1mPlease install Priiloader...\x1b[39m\n\n");
+		printf("\x1b[30;1mPlease install Priiloader...\x1b[39m\n");
 		sleep(1);
 
 		puts("Press A to continue.");
